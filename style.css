@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+.content {
+    padding: 0 128px;
+}
+
+h1 {
+    color: indigo;
+    font-size: 48px;
+    font-family: 'Nunito', Helvetica;
+}
+
+h2 {
+    font-family: 'Nunito', Helvetica;
+    color: #333333;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Nunito', Helvetica;
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #333333;
+}
+
+a {
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.project-card {
+    width: 45%;
+    background-color: pink;
+    padding: 1%;
+    margin: 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#me {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    background-color: lavender;
+    margin: 0;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    font-family: 'Nunito';
+}
+
+.nav-link:hover {
+    background-color: pink;
+}
+
+.nav-link:active {
+    color: white;
+}
